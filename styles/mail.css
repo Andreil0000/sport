@@ -1,0 +1,268 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   overflow-x: hidden;
+}
+
+.container {
+   max-width: 1141px;
+   margin: 0 auto;
+   display: block;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.burger {
+   background-image: url(../images/burger.svg);
+}
+
+.header-item {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-basis: 57.5%;
+}
+
+.header-logo {
+   display: block;
+   background-image: url(../images/logo.svg);
+   width: 97px;
+   height: 30px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   gap: 25px;
+}
+
+.header-nav,
+.footer-nav {
+   display: flex;
+   list-style-type: none;
+   padding-left: 0px;
+   gap: 53px;
+}
+
+.header-nav a,
+.footer-nav a {
+   color: #443737;
+   font-size: 18px;
+   font-weight: 300;
+   text-decoration: none;
+}
+
+.header-nav a::after {
+   content: "";
+   height: 1px;
+   width: 100%;
+   background: #2B3541;
+   border-radius: 1px;
+   display: block;
+   background: transparent;
+}
+
+.header-nav a:hover::after {
+   background: #2B3541;
+}
+
+.footer-nav a::after {
+   content: "";
+   height: 1px;
+   width: 100%;
+   background: #2B3541;
+   border-radius: 1px;
+   display: block;
+   background: transparent;
+}
+
+.footer-nav a:hover::after {
+   background: #2B3541;
+}
+
+.social {
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+}
+
+li.social-icon {
+   text-decoration: none;
+   list-style: none;
+   display: block;
+   width: 30px;
+   height: 30px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   transform: scale(1);
+   transition: .3s;
+}
+
+.social-icon:hover {
+   transform: scale(1.2);
+   opacity: 1;
+}
+
+.instagram {
+   background-image: url(../images/in.svg);
+}
+
+.facebook {
+   background-image: url(../images/fb.svg);
+}
+
+.contant {
+   padding-top: 186px;
+   margin: 0;
+   color: #2B3541;
+   z-index: 1;
+   padding-top: 192px;
+}
+
+.title {
+   font-size: 48px;
+   font-weight: 700;
+   color: #2B3541;
+   line-height: 125%;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   width: 676px;
+}
+
+.bg-arrow {
+   margin-top: 202px;
+   background: url(../images/arrow.svg);
+   width: 52px;
+   height: 69px;
+   border: none;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.bg-arrow:hover {
+   transform: scale(1.2);
+   opacity: 1;
+}
+
+.box {
+   display: flex;
+   max-width: 790px;
+   width: 100%;
+   gap: 20px;
+   position: absolute;
+   top: 0;
+   z-index: -1;
+   right: -63px;
+}
+
+.box-gradient-left {
+   background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+   opacity: 0.2;
+   flex-basis: 70%;
+   height: 846px;
+}
+
+.box-gradient-right {
+   background: linear-gradient(90deg, #FDF9B6 0%, rgba(253, 249, 182, 0.7) 166.81%);
+   opacity: 0.2;
+   flex-basis: 30%;
+   height: 846px;
+}
+
+.box-image {
+   position: absolute;
+   top: 37px;
+   right: -97px;
+   width: 984px;
+   height: 808px;
+}
+
+.description {
+   font-weight: 300;
+   font-size: 40px;
+   line-height: 125%;
+   letter-spacing: 0.03em;
+   color: #2B3541;
+}
+
+.contant-desc {
+   margin-left: 93px;
+}
+
+.desc {
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 150%;
+   color: #2B3541;
+   width: 297px;
+   margin-top: -18px;
+   margin-bottom: 55px;
+}
+
+.contant-btn {
+   color: #2B3541;
+   border: none;
+   margin: 0;
+   width: 252px;
+   height: 66px;
+   background-color: #FBF138;
+   padding: 20px 30px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   text-align: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   text-decoration: none;
+   transition: 0.3s;
+   margin-top: 25px;
+   box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+}
+
+.form-btn:hover {
+   background-color: #2B3541;
+   color: #FBF138;
+   box-shadow: 0px 13px 24px rgba(70, 86, 106, 0.2);
+}
+
+.form-email-btn:hover {
+   background-color: #2B3541;
+   color: #FBF138;
+   box-shadow: 0px 13px 24px rgba(70, 86, 106, 0.2);
+}
+
+.contant-btn:hover {
+   background-color: #2B3541;
+   color: #FBF138;
+   box-shadow: 0px 13px 24px rgba(70, 86, 106, 0.2);
+}
+
+.bg {
+   margin-bottom: 155px;
+}
+
+.box {
+   display: flex;
+   max-width: 790px;
+   width: 100%;
+   gap: 20px;
+   position: absolute;
+   top: 0;
+   z-index: -1;
+   right: -63px;
+}
+
+.box-image {
+   position: absolute;
+   top: -8px;
+   right: -103px;
+   width: 993px;
+   height: 855px;
+}
