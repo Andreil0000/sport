@@ -675,6 +675,7 @@ input {
 label {
    font-size: 11px;
    line-height: 150%;
+   text-decoration: none;
 }
 
 .agreement {
@@ -682,6 +683,10 @@ label {
    padding-bottom: 84px;
    justify-content: center;
    margin-left: 23%;
+}
+.agreement a {
+   color: rgba(43, 53, 65, 1);
+   transition: 0.2s;
 }
 
 .agreement2 {
@@ -698,6 +703,14 @@ label {
    position: relative;
    padding-left: 31px;
    cursor:pointer;
+   opacity: 0.5;
+   color: var(--dark, #2B3541);
+   font-family: Montserrat;
+   font-size: 11px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%;
+   text-decoration: none;
 }
 /* Стили для псевдоэлемента before с фоном и обводкой, когда пункт активен */
 .checkbox:checked + label::before{
