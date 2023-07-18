@@ -685,11 +685,10 @@ label {
    margin-left: 23%;
 }
 .agreement a {
-   color: var(--dark, #2B3541);
+   color: rgba(43, 53, 65, 0.50);
    text-decoration-line: underline;
 }
 .agreement a:hover {
-   opacity: 0.5;
    color: var(--dark, #2B3541);
    text-decoration-line: underline;
 }
@@ -709,6 +708,7 @@ label {
    position: relative;
    padding-left: 31px;
    cursor:pointer;
+   color: rgba(43, 53, 65, 0.50);
   
 }
 /* Стили для псевдоэлемента before с фоном и обводкой, когда пункт активен */
