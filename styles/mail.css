@@ -692,8 +692,6 @@ label {
    color: var(--dark, #2B3541);
    text-decoration-line: underline;
 }
-
-
 .agreement2 {
    display: none;
 }
