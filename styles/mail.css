@@ -444,7 +444,7 @@ h3 {
 .main-grid {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: 401px 39px 5px 281px;
+   grid-template-rows: 317px 72px 56px 281px;
    gap: 20px;
    margin-bottom: 73px;
 }
@@ -463,24 +463,23 @@ h3 {
 
 
 .main-grid-item:nth-child(1) {
-   width: 367px;
-   height: 313px;
+   grid-column: 1/2;
+   grid-row: 1/2;
    padding: 0px 28px;
-   flex-shrink: 0;
 }
 
 .main-grid-item:nth-child(2) {
-   width: 366px;
-   height: 407px;
+   grid-column: 2/3;
+   grid-row: 1/3;
    padding: 0px 29px;
-   flex-shrink: 0;
+ 
 }
 
 .main-grid-item:nth-child(3) {
-   width: 365px;
-   height: 312px;
+   grid-column: 3/4;
+   grid-row: 1/2;
    padding: 0px 29px;
-   flex-shrink: 0
+
 }
 
 .main-grid-item:nth-child(5) {
@@ -494,7 +493,7 @@ h3 {
 }
 
 .main-grid-item:nth-child(4) {
-   margin-top: -80px;
+   margin-top: 5px;
    width: 367px;
    height: 366px;
    flex-shrink: 0;
@@ -504,7 +503,7 @@ h3 {
    border: none;
 }
 
-p.main-text-gradient:hover p {
+.main-text-gradient:hover p {
    max-height: 600px;
 }
 
@@ -512,7 +511,7 @@ p.main-text-gradient:hover p {
    width: 369px;
    height: 373px;
    grid-column: 3/4;
-   margin-top: -87px;
+   margin-top: -2px;
 }
 
 .main-data {
@@ -545,7 +544,7 @@ p.main-text-gradient:hover p {
    margin-bottom: 16px;
 }
 
-p.main-text {
+.main-text {
    font-weight: 400;
    font-size: 18px;
    line-height: 130%;
