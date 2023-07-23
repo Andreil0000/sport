@@ -18,6 +18,8 @@
             <div class="header-item">
                <a href="index.html" class="header-logo"></a>
                <div class="header-burger">
+                  <button class="burger" onclick="openModal()">
+                  </button>
                </div>
                <nav>
                   <ul class="header-nav">
@@ -108,7 +110,7 @@
             <div class="main-grid">
                <div class="main-grid-item">
                   <p class="main-data">22 июня, 10:00</p>
-                     <div class="main-name">
+                  <div class="main-name">
                      <img class="main-img" src="image/body.svg" alt="body">
                      <h4 class="main-title">Функциональный тренинг</h4>
                      <p class="main-text">Система высокоинтенсивных тренировок.</p>
@@ -235,39 +237,55 @@
    </div>
    <footer class="footer">
       <div class="container">
-          <div class="footer-item">
-              <div class="footer-main">
-                  <a href="index.html" class="footer-logo"></a>                    
-                  <ul class="footer-nav">
-                      <li><a href="#preview">Мероприятия</a></li>
-                      <li><a href="#aside">Расписание</a></li>
-                      <li><a href="#features">О компании</a></li>                            
-                  </ul>
-              </div>
-              <div class="footer-info">                                                    
-                  <div class="e-mail">
-                      <a href="mailto:mail@example.com">info@freefit.com</a>
-                  </div>                
-                  <ul class="sociall">
-                      <li  class="sociall-icon instagram" >
-                          <a href="#" class="instagram" targett="_blank"></a>
-                      </li>
-                      <li class="sociall-icon facebook">
-                          <a href="#" class="facebook" targett="_blank"></a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-          <div class="footer-description">
-               <p>© 2022, Все права защищены</p>
-              <p>
+         <div class="footer-item">
+            <div class="footer-main">
+               <a href="index.html" class="footer-logo"></a>
+               <ul class="footer-nav">
+                  <li><a href="#preview">Мероприятия</a></li>
+                  <li><a href="#aside">Расписание</a></li>
+                  <li><a href="#features">О компании</a></li>
+               </ul>
+            </div>
+            <div class="footer-info">
+               <div class="e-mail">
+                  <a href="mailto:mail@example.com">info@freefit.com</a>
+               </div>
+               <ul class="sociall">
+                  <li class="sociall-icon instagram">
+                     <a href="#" class="instagram" targett="_blank"></a>
+                  </li>
+                  <li class="sociall-icon facebook">
+                     <a href="#" class="facebook" targett="_blank"></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer-description">
+            <p>© 2022, Все права защищены</p>
+            <p>
                Сделано в рамках курса учебной платформы
-              <a href="https://frontendblok.com/" target="_blank">Annblok</a>
-              </p>
-          </div>
-      </div>           
-  </footer>
-
+               <a href="https://frontendblok.com/" target="_blank">Annblok</a>
+            </p>
+         </div>
+      </div>
+   </footer>
+  <!---------BURGER MENU--------->
+  <div id="modal" class="modal">
+   <a href="#" class="header-logo"></a>
+   <ul class="modal-header-nav">
+       <li><a href="#preview">Мероприятия</a></li>
+       <li><a href="#aside">Расписание</a></li>
+       <li><a href="#features">О компании</a></li>                            
+   </ul>
+   <button class="burger-close" onclick="closeModal()"></button>
+   <ul class="modal-social">
+       <li  class="social-icon instagram" >
+           <a href="#" class="instagram" target="_blank"></a>
+       </li>
+       <li class="social-icon facebook">
+           <a href="#" class="facebook" target="_blank"></a>
+       </li>
+   </ul>
+      <script src="mail/stail.js"></script>
 </body>
-
 </html>
