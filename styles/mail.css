@@ -987,12 +987,13 @@ li.sociall-icon {
 .header-burger {
    width: 34px;
    height: 22px;
-   background-image: url(../image/меню.svg);
+   background-image: url(../image/меееенннююю.svg);
    background-repeat: no-repeat;
    background-size: contain;
    background-color: transparent;
    border: none;
    cursor: pointer;
+   margin-right: 192px;
 }
 
 #modal {
@@ -1011,8 +1012,8 @@ li.sociall-icon {
 .header-logo {
    display: block;
    background-image: url(../image/logo.svg);
-   width: 97px;
-   height: 30px;
+   width: 78px;
+   height: 24px;
    background-repeat: no-repeat;
    background-size: contain;
    gap: 25px;
@@ -1099,7 +1100,7 @@ li.social-icon {
    }
 }
 
-@media (max-width: 1064px) {
+@media (max-width:1064px) {
    .header-nav {
       display: none;
    }
@@ -1107,14 +1108,85 @@ li.social-icon {
 
 @media (max-width: 1001px) {
    .container {
-      width: 768px;
-      margin: 0px auto;
+      max-width: 770px;
+      margin: 0 auto;
    }
 }
-
 @media (max-width: 768px) {
    .container {
-      width: 768px;
-      margin: 0px auto;
+      max-width: 770px;
+      margin: 0 auto;
    }
 }
+@media (max-width:  1001px) {
+   .social {
+      gap: 13px;
+      margin-right: -27px;
+   }
+}
+@media (max-width:  1001px) {
+   .description  {
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 125%;
+      letter-spacing: 0.03em;
+      color: #2B3541;
+      padding-top: 18px;
+   }
+}
+@media (max-width: 1001px) {
+   .title {
+      font-size: 26px;
+      font-weight: 700;
+      color: #2B3541;
+      line-height: 125%;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      width: 358px;
+  
+   }
+}
+@media (max-width: 1001px) {
+   .desc  {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 150%;
+      color: #2B3541;
+      width: 297px;
+      padding-bottom:7px;
+   }
+}
+@media (max-width: 1001px) {
+   .contant-desc  {
+      margin:34px 1px;
+   }
+}
+@media (max-width: 1001px) {
+.box-image  {
+   position: absolute;
+   top: 80px;
+   right: 38px;
+   width: 427px;
+   height: 362px;
+   }
+}
+@media (max-width: 1001px) {
+   .contant {
+      padding-top: 186px;
+      margin: 0;
+      color: #2B3541;
+      z-index: 1;
+      padding-top: 10px;
+      }
+   }
+   @media (max-width: 1001px) {
+      .bg-arrow {
+         margin-top: 31px;
+         background: url(../image/arrow.svg);
+         width: 52px;
+         height: 40px;
+         border: none;
+         background-repeat: no-repeat;
+         background-size: contain;
+         }
+      }
