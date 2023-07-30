@@ -1159,7 +1159,7 @@ li.social-icon {
 
 @media (max-width: 1001px) {
    .container {
-      max-width: 1001px;
+      max-width: 768px;
       margin: 0 auto;
    }
 }
@@ -1574,7 +1574,7 @@ li.social-icon {
 }
 @media (max-width: 769px) {
    .container {
-      max-width: 768px;
+      max-width: 720px;
       margin: 0 auto;
    }
 }
