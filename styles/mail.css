@@ -1135,6 +1135,7 @@ li.social-icon {
    transform: scale(1);
    transition: .3s;
 }
+
 @media (max-width:1048px) {
    .header-nav {
       display: none;
@@ -1151,16 +1152,19 @@ li.social-icon {
    .container {
       max-width: 740px;
    }
+
    h3 {
       width: 140px;
       font-size: 16px;
    }
+
    .box-image {
       right: -66px;
       width: 673px;
       height: 679px;
       top: 2px;
    }
+
    .title {
       font-size: 26px;
       font-weight: 700;
@@ -1170,11 +1174,13 @@ li.social-icon {
       text-transform: uppercase;
       width: 358px;
    }
+
    .contant {
       padding-top: 186px;
       padding-top: 95px;
    }
-} 
+}
+
 @media (max-width:1048px) {
    .form-btnn {
       padding: 21px 48px;
@@ -1208,7 +1214,7 @@ li.social-icon {
    .features-text {
       font-size: 16px;
       width: 321px;
-      margin-bottom: 49px;
+      margin-bottom: 46px;
    }
 
    .kettlebell {
@@ -1216,6 +1222,7 @@ li.social-icon {
       width: 400px;
       height: 315px;
    }
+
    .social {
       gap: 15px;
       margin-right: -13px;
@@ -1367,10 +1374,11 @@ li.social-icon {
       margin-bottom: 18px;
    }
 }
+
 @media (max-width:1048px) {
    .footer {
       margin-top: 83px;
-      padding-top: 45px;
+      padding-top: 43px;
    }
 
    .footer-item {
@@ -1405,6 +1413,7 @@ li.social-icon {
       top: 29px;
       font-size: 16px;
    }
+
    .preview-btn {
       left: 0px;
       right: auto;
@@ -1547,28 +1556,19 @@ li.social-icon {
    .main-grid-item:nth-child(6) {
       margin-left: 0px;
    }
+
    .checkbox:not(:checked)+label {
       margin: 30px;
    }
-   .form-title::before {
-      content: "";
-      width: 52px;
-      height: 28px;
-      margin-left: -22px;
-      margin-top: -53px;
-   }
-   .features-text {
-      font-size: 16px;
-      width: 321px;
-      margin-bottom: 49px;
-   }
+
    .kettlebell {
       margin: 46px -10px;
       width: 372px;
       height: 227px;
    }
 }
-@media(max-width: 769px){
+
+@media(max-width: 769px) {
    .form-title {
       display: flex;
       text-align: center;
@@ -1579,6 +1579,19 @@ li.social-icon {
       padding-top: 53px;
       padding-left: 32px;
       margin-bottom: 51px;
+   }
+
+   .form-title::before {
+      content: "";
+      width: 52px;
+      height: 28px;
+      margin-left: -22px;
+      margin-top: -53px;
+   }
+
+   .form-title::before {
+      text-align: center;
+
    }
 
    .form-wrap {
@@ -1611,7 +1624,7 @@ li.social-icon {
       background-color: #FBF138;
       box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
       display: block;
-      padding: 24px;
+      padding: 27px;
       width: 348px;
       font-weight: 700;
       text-transform: uppercase;
@@ -1641,7 +1654,75 @@ li.social-icon {
       text-align: center;
       transition: 0.3s;
    }
+
    .form-email-btn {
       display: none;
+   }
+}
+
+@media(max-width: 700px) {
+   .box-image {
+      right: -75px;
+   }
+}
+
+@media(max-width: 500px) {
+   .bg {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+   }
+
+   .box-image {
+      width: 340px;
+      height: 290px;
+      margin: 270px 137px;
+   }
+
+   .bg-arrow {
+      margin-top: 246px;
+      color: aliceblue;
+      height: 0px;
+   }
+
+   .burger {
+      margin-left: 57px;
+   }
+
+   .social-header {
+      right: 10%;
+   }
+
+   .contant-btn {
+      padding: 18px 71px;
+   }
+}
+
+@media(max-width: 340px) {
+   .social-header {
+      right: 44%;
+   }
+
+   .header {
+      padding-bottom: 11px;
+   }
+
+   .title {
+      font-size: 25px;
+      letter-spacing: 0.02em;
+   }
+
+   .contant {
+      padding-top: 19px;
+   }
+
+   .description {
+      padding-top: 17px;
+      letter-spacing: 0.02em;
+   }
+
+   .desc {
+      margin-left: -4px;
+      margin-top: -21px;
    }
 }
