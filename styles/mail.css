@@ -155,11 +155,11 @@ li.social-icon {
 
 .box-image {
    position: absolute;
-   width: 856px;
-   height: 816px;
-   right: -172px;
-   margin-top: 116px;
+   width: 556px;
+   height: 789px;
+   transform: translate(68%, 154px);
 }
+
 .description {
    font-weight: 300;
    font-size: 40px;
@@ -218,6 +218,7 @@ li.social-icon {
    z-index: -1;
    right: 242px;
 }
+
 .bg {
    margin-bottom: 145px;
 }
@@ -865,7 +866,7 @@ ul.advantages-item {
 }
 
 .kettlebell {
-   width: 581px;
+   width: 100%;
    height: 336px;
    margin-top: 160px;
 }
@@ -1097,29 +1098,28 @@ li.sociall-icon {
    top: 275px;
    right: 31px;
 }
-@media (max-width: 1310px){
-.box-image {
-    width: 66vw;
-    right: -10px;
-}
-.box{
-   right: 38px;
-}
-}
-@media (max-width: 1100px){
+
+@media(max-width:1595px) {
    .box-image {
-      width: 570px;
-      height: 509px;
-      right: -10px;
-      margin-top: 259px;
+      position: absolute;
+      width: 556px;
+      height: 789px;
+      transform: translate(68%, 154px);
    }
-   .box{
-      right: 38px;
+}
+
+@media (max-width: 1100px) {
+   .box-image {
+      width: 556px;
+      height: 622px;
+      transform: translate(85%, 148px);
    }
+
    h3 {
       width: 140px;
       font-size: 16px;
    }
+
    .title {
       font-size: 26px;
       font-weight: 700;
@@ -1129,11 +1129,18 @@ li.sociall-icon {
       text-transform: uppercase;
       width: 358px;
    }
+
    .contant {
       padding-top: 186px;
       padding-top: 95px;
    }
+
+   .kettlebell {
+      margin: 45px -11px;
+      height: 315px;
+   }
 }
+
 @media (max-width:1058px) {
    .header-logo {
       display: block;
@@ -1144,23 +1151,20 @@ li.sociall-icon {
       background-size: contain;
       gap: 25px;
    }
-li.social-icon {
-   text-decoration: none;
-   list-style: none;
-   display: block;
-   width: 30px;
-   height: 30px;
-   background-repeat: no-repeat;
-   background-size: contain;
-   transform: scale(1);
-   transition: .3s;
+
+   li.social-icon {
+      text-decoration: none;
+      list-style: none;
+      display: block;
+      width: 30px;
+      height: 30px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      transform: scale(1);
+      transition: .3s;
+   }
 }
-.kettlebell {
-   margin: 45px -11px;
-   width: 400px;
-   height: 315px;
-}
-}
+
 @media (max-width:1010px) {
    .header-nav {
       display: none;
@@ -1177,11 +1181,15 @@ li.social-icon {
    .form-btnn {
       padding: 21px 48px;
    }
+
    .box-image {
-      right: -63px;
-      width: 477px;
-      height: 454px;
-      top: -22px;
+      width: 401px;
+      height: 408px;
+      transform: translate(148%, 79px);
+   }
+
+   .social-header {
+      right: 2%;
    }
 
    ul.advantages-item {
@@ -1189,7 +1197,7 @@ li.social-icon {
       grid-template-columns: repeat(2, 1fr);
       gap: 0px;
       font-size: 16px;
-      margin: -35px 1px;
+      margin: -27px 0px;
    }
 
    .main-data {
@@ -1204,7 +1212,7 @@ li.social-icon {
    }
 
    .features-title {
-      margin-top: 38px;
+      margin-top: 42px;
    }
 
    .features-text {
@@ -1213,7 +1221,7 @@ li.social-icon {
       margin-bottom: 50px;
    }
 
-  
+
 
    .social {
       gap: 15px;
@@ -1252,12 +1260,9 @@ li.social-icon {
 
    .headline {
       margin-top: -20px;
-      margin-right: -5px;
+      margin-right: 2px;
       padding: -4px;
-      font-weight: 700;
       font-size: 16px;
-      line-height: 125%;
-      color: #2B3541;
    }
 
 
@@ -1283,7 +1288,7 @@ li.social-icon {
       width: 205%;
       height: 337px;
       grid-column: 1 / 3;
-      width: 101%;
+      width: 100%;
       background-position: center 100%;
       margin-top: -302px;
    }
@@ -1296,13 +1301,13 @@ li.social-icon {
 
    .preview-box1 {
       background-image: url(../image/девушка\ с\ гантелей.png);
-      width: 102%;
+      width: 100%;
       height: 307px;
    }
 
    .preview-box2 {
       background-image: url(../image/тренерpng.png);
-      width: 102%;
+      width: 100%;
       height: 307px;
    }
 
@@ -1338,19 +1343,17 @@ li.social-icon {
    li.sociall-icon {
       width: 27px;
       height: 27px;
+      transform: translate(-42%, 0px);
    }
 
    .sociall {
-      gap: 30px;
-   }
-
-   .box {
-      right: -17px;
+      gap: 33px;
    }
 
    li.social-icon {
       width: 26px;
       height: 26px;
+
    }
 
    .contant {
@@ -1366,17 +1369,15 @@ li.social-icon {
    }
 
    .kettlebell {
-      margin: 46px -10px;
-      width: 372px;
-      height: 227px;
+      width: 380px;
+      margin: 45px -1px;
+      height: 223px;
    }
 
    .footer {
-      margin-top: 91px;
+      margin-top: 81px;
       padding-top: 41px;
    }
-
-
 
    .footer-item {
       display: block;
@@ -1414,10 +1415,9 @@ li.social-icon {
 
 @media(max-width: 769px) {
    .box-image {
-      width: 427px;
-      height: 352px;
-      margin-top: 105px;
-      right: -17px;
+      width: 395px;
+      height: 342px;
+      transform: translate(153%, 177px);
    }
 
    h2 {
@@ -1454,11 +1454,11 @@ li.social-icon {
       grid-template-columns: repeat(2, 1fr) auto;
       grid-template-rows: 240px 224px auto;
       gap: -1px;
-      margin-bottom: 89px;
+      margin-bottom: 96px;
    }
 
    .main-grid-item:nth-child(1) {
-      width: 104%;
+      width: 102%;
       height: 224px;
       padding: 0px 25px;
       margin-top: 18px;
@@ -1470,7 +1470,7 @@ li.social-icon {
       grid-column: 1/2;
       grid-row: 2/2;
       margin-top: 10px;
-      width: 104%;
+      width: 102%;
       height: 224px;
       margin-top: 2px;
    }
@@ -1478,7 +1478,7 @@ li.social-icon {
    .main-grid-item:nth-child(3) {
       grid-column: 1/2;
       grid-row: 3/3;
-      width: 104%;
+      width: 102%;
       height: 224px;
       margin: 0px 0px;
    }
@@ -1486,11 +1486,11 @@ li.social-icon {
    .main-grid-item:nth-child(4) {
       grid-column: 2/3;
       grid-row: 1/3;
-      width: 104%;
+      width: 103%;
       height: 226px;
       margin-left: 0px;
       margin: 11px 0px;
-      margin-left: 14px;
+      margin-left: 9px;
       opacity: 1;
    }
 
@@ -1498,20 +1498,20 @@ li.social-icon {
       grid-row: 2/3;
       margin-top: 10px;
       margin-left: 10px;
-      width: 104%;
-      height: 226px;
-      margin: -1px 15px;
+      width: 103%;
+      height: 223px;
+      margin: 3px 9px;
       padding: 0px 24px;
    }
 
    .main-grid-item:nth-child(6) {
       grid-column: 2/3;
       grid-row: 3/4;
-      width: 104%;
+      width: 103%;
       height: 224px;
       margin-left: 0px;
       padding-top: 11px;
-      margin-left: 15px;
+      margin-left: 9px;
    }
 
    .textt {
@@ -1536,7 +1536,7 @@ li.social-icon {
       width: 203px;
       margin: 0 auto;
       padding-top: 53px;
-      padding-left: 36px;
+      padding-left: 18px;
       margin-bottom: 51px;
    }
 
@@ -1556,7 +1556,7 @@ li.social-icon {
    .form-wrap {
       display: flex;
       flex-direction: column;
-      padding-left: 207px;
+      padding-left: 206px;
    }
 
    input {
@@ -1569,12 +1569,12 @@ li.social-icon {
       margin-top: 10px;
       padding-bottom: 84px;
       justify-content: center;
-      margin-left: -6%;
+      margin-left: -8%;
    }
 
    .form-email-btn-modil {
-      margin-top: 40px;
-      margin-left: 245px;
+      margin-top: 36px;
+      margin-left: 259px;
    }
 
    .form-email-btn-modil {
