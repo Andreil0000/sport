@@ -155,9 +155,9 @@ li.social-icon {
 
 .box-image {
    position: absolute;
-   width: 556px;
-   height: 789px;
-   transform: translate(68%, 154px);
+   width: 996px;
+   height: 856px;
+   transform: translate(0%, 82px);
 }
 
 .description {
@@ -1099,12 +1099,12 @@ li.sociall-icon {
    right: 31px;
 }
 
-@media(max-width:1595px) {
+@media(min-width:1595px) {
    .box-image {
       position: absolute;
-      width: 556px;
-      height: 789px;
-      transform: translate(68%, 154px);
+      width: 996px;
+      height: 856px;
+      transform: translate(0%, 82px);
    }
 }
 
@@ -1525,10 +1525,6 @@ li.sociall-icon {
       max-height: 50px;
    }
 
-   /* .preview-grid {
-      grid-template-columns: repeat(2, 1fr);
-      margin-bottom: 80px;
-   } */
    .form-title {
       display: flex;
       align-items: center;
@@ -1630,7 +1626,12 @@ li.sociall-icon {
    }
 
    @media(max-width: 710px) {
-      .burger {
+      .box-image {
+         width: 362px;
+         height: 342px;
+         transform: translate(138%, 177px);
+      }
+      /* .burger {
          margin-left: 57px;
       }
 
@@ -1658,16 +1659,19 @@ li.sociall-icon {
          margin-top: 302px;
          color: aliceblue;
          height: 0px;
-      }
+      } */
       .kettlebell{
-        display: none;
+      width: 100%;
+      height: 200px;
       }
    }
       @media(max-width: 600px) {
          .box-image{
-            width: 362px;
-            height: 342px;
-            transform: translate(70%, 475px);
+          width: 362px;
+          height: 342px;
+          transform: translate(108%, 169px);
+      }
+   
          }
       .preview-box3 {
          background-image: url(../image/йо\ 2.png);
@@ -1757,7 +1761,17 @@ li.sociall-icon {
          margin-left: 15%;
       }
    }
-   @media(max-width: 500px){
+   @media(max-width: 510px){
+      .box-image{
+         width: 362px;
+         height: 342px;
+         transform: translate(81%, 460px);
+      }
+      .bg-arrow {
+         margin-top: 302px;
+         color: aliceblue;
+         height: 0px;
+      }
       ul.advantages-item{
          display: flex;
          flex-wrap: wrap;
@@ -1766,6 +1780,9 @@ li.sociall-icon {
       .form-btnn {
          padding: 21px 100px;
       }
+      .kettlebell{
+         display: none;
+       }
    }
    @media(max-width: 340px) {
       .social-header {
