@@ -106,7 +106,9 @@ li.social-icon {
    transform: scale(1);
    transition: .3s;
 }
-
+  .header-burger{
+   display: none;
+  }
 .social-icon:hover {
    transform: scale(1.2);
    opacity: 1;
@@ -1162,12 +1164,15 @@ li.sociall-icon {
       transform: scale(1);
       transition: .3s;
    }
-
-   @media (max-width:1010px) {
+      @media (max-width:1020px) {
+         .header-burger {
+            display: block;
+         }
+      }
+      @media (max-width:1020px) {
       .header-nav {
          display: none;
       }
-
    }
 
    @media (max-width:1001px) {
