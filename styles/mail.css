@@ -1202,7 +1202,7 @@ li.sociall-icon {
       grid-template-columns: repeat(2, 1fr);
       gap: 0px;
       font-size: 16px;
-      margin: -27px 0px;
+      margin: 0px 0px;
    }
 
    .main-data {
@@ -1217,7 +1217,7 @@ li.sociall-icon {
    }
 
    .features-title {
-      margin-top: 42px;
+      margin-top: 5px;
    }
 
    .features-text {
@@ -1372,13 +1372,13 @@ li.sociall-icon {
 
    .kettlebell {
       width: 380px;
-      margin: 45px -1px;
+      margin: 8px -1px;
       height: 223px;
    }
 
    .footer {
-      margin-top: 81px;
-      padding-top: 41px;
+      margin-top: 52px;
+    padding-top: 45px;
    }
 
    .footer-item {
@@ -1558,15 +1558,19 @@ li.sociall-icon {
    .form-wrap {
       display: flex;
       flex-direction: column;
-      padding-left: 206px;
+      align-items: center;
    }
 
    input {
       outline: none;
       padding: 23px 44px 19px 24px;
       padding-bottom: 25px;
+      margin: 0 auto;
    }
-
+   .form {
+      flex-direction: column;
+      align-items: center;
+    }
    .agreement {
       margin-top: 10px;
       padding-bottom: 84px;
@@ -1575,8 +1579,7 @@ li.sociall-icon {
    }
 
    .form-email-btn-modil {
-      margin-top: 36px;
-      margin-left: 259px;
+      margin: 36px 259px;
    }
 
    .form-email-btn-modil {
@@ -1627,7 +1630,9 @@ li.sociall-icon {
       height: 342px;
       transform: translate(119%, 177px);
    }
-
+   .form-email-btn-modil {
+     margin: 0 auto;
+   }
 }
 
 @media(max-width: 710px) {
@@ -1766,16 +1771,12 @@ li.sociall-icon {
    }
 
    .form-title {
-      padding-left: 15%;
-      padding-top: 43px;
+      padding-left: 13%;
+      padding-top: 46px;
    }
 
    .form-wrap {
       padding-left: 10%;
-   }
-
-   .form-email-btn-modil {
-      margin-left: 15%;
    }
 }
 
@@ -1863,14 +1864,7 @@ li.sociall-icon {
 
 @media(max-width: 480px) {
    input {
-      /* padding: 20px  78px 19px 25px; */
       width: 249px;
-   }
-
-   .form-email-btn-modil {
-      width: 325px;
-      margin-left: 11%;
-      padding: 29px 101px;
    }
 }
 
@@ -1893,8 +1887,8 @@ li.sociall-icon {
    }
 
    .agreement {
-      margin-top: 18px;
-      margin-left: -12%;
+      margin-top: 14px;
+      margin-left: -13%;
       padding-bottom: 69px;
    }
 
@@ -1914,8 +1908,9 @@ li.sociall-icon {
    }
 
    .form-email-btn-modil {
-      margin: 36px 31px;
-      padding: 28px 103px;
+      width: 323px;
+      margin: 43px 37px;
+      padding: 21px 0px;
    }
 
    .form-wrap {
