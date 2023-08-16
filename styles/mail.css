@@ -161,7 +161,7 @@ li.social-icon {
    position: absolute;
    max-width: 981px;
    height: 856px;
-   transform: translate(34%, 87px);
+   transform: translate(36%, 87px);
 }
 
 .description {
@@ -1103,12 +1103,12 @@ li.sociall-icon {
    right: 31px;
 }
 
-@media(min-width:1200px) {
+@media(min-width:1600px) {
    .box-image {
       position: absolute;
       max-width: 981px;
       height: 856px;
-      transform: translate(34%, 87px);
+      transform: translate(36%, 87px);
    }
 }
 
