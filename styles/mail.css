@@ -161,7 +161,7 @@ li.social-icon {
    position: absolute;
    max-width: 100vw;
    height: 60vw;
-   transform: translate(33%, 84px);
+   transform: translate(40%, 84px);
 }
 
 .description {
@@ -1128,12 +1128,6 @@ li.sociall-icon {
       padding-top: 186px;
       padding-top: 95px;
    }
-
-   .kettlebell {
-      width: 372px;
-      margin: 45px -11px;
-      height: 315px;
-   }
 }
 
 @media (max-width:1058px) {
@@ -1371,9 +1365,7 @@ li.sociall-icon {
    }
 
    .kettlebell {
-      width: 372px;
       margin: 44px 2px;
-      height: 315px;
    }
 
    .footer {
