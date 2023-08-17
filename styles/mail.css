@@ -159,10 +159,11 @@ li.social-icon {
 
 .box-image {
    position: absolute;
-    max-width: 100vw;
-    height: 60vw;
-    transform: translate(33%, 84px);
+   max-width: 100vw;
+   height: 60vw;
+   transform: translate(33%, 84px);
 }
+
 .description {
    font-weight: 300;
    font-size: 40px;
@@ -1001,6 +1002,7 @@ ul.advantages-item {
    align-items: center;
    gap: 12px;
 }
+
 li.sociall-icon {
    text-decoration: none;
    list-style: none;
@@ -1101,10 +1103,12 @@ li.sociall-icon {
    top: 275px;
    right: 31px;
 }
+
 @media (max-width: 1120px) {
    .social-header {
       right: 1.5%;
-  }
+   }
+
    h3 {
       width: 140px;
       font-size: 16px;
@@ -1172,30 +1176,35 @@ li.sociall-icon {
    .form-btnn {
       padding: 21px 48px;
    }
+
    .box-image {
       position: absolute;
       max-width: 50vw;
       height: 44vw;
       transform: translate(71%, 202px);
    }
-   .box{
+
+   .box {
       right: 7.5%;
-    }
+   }
+
    .social-header {
       right: 1.5%;
    }
- 
+
    ul.advantages-item {
       display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0px;
-    font-size: 16px;
-    margin: -65px 0px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0px;
+      font-size: 16px;
+      margin: -65px 0px;
    }
-   .advantages-description  {
-   font-size: 16px;
-   width: 210px;
-    }
+
+   .advantages-description {
+      font-size: 16px;
+      width: 210px;
+   }
+
    .main-data {
       position: relative;
       font-weight: 300;
@@ -1356,9 +1365,11 @@ li.sociall-icon {
       z-index: 1;
       padding-top: 10px;
    }
+
    .checkbox:not(:checked)+label {
       margin: 30px;
    }
+
    .kettlebell {
       width: 372px;
       margin: 44px 2px;
@@ -1411,9 +1422,11 @@ li.sociall-icon {
       height: 46vw;
       transform: translate(165%, 169px);
    }
-   .box{
+
+   .box {
       right: 39%;
-    }
+   }
+
    .headline {
       opacity: 0.7;
    }
@@ -1511,11 +1524,13 @@ li.sociall-icon {
       padding-top: 11px;
       margin-left: 9px;
    }
-   .kettlebell  {
+
+   .kettlebell {
       width: 372px;
-    margin: 78px 2px;
-    height: 230px;
-    }
+      margin: 78px 2px;
+      height: 230px;
+   }
+
    .textt {
       font-size: 26px;
       font-weight: 700;
@@ -1563,10 +1578,12 @@ li.sociall-icon {
       padding-bottom: 25px;
       margin: 0 auto;
    }
+
    .form {
       flex-direction: column;
       align-items: center;
-    }
+   }
+
    .agreement {
       margin-top: 10px;
       padding-bottom: 84px;
@@ -1620,6 +1637,7 @@ li.sociall-icon {
       display: none;
    }
 }
+
 @media(max-width: 710px) {
    .kettlebell {
       width: 100%;
@@ -1632,6 +1650,7 @@ li.sociall-icon {
       background-image: url(../image/йо\ 2.png);
       background-position: center;
    }
+
    h3 {
       width: 121px;
       left: 19px;
@@ -1714,12 +1733,14 @@ li.sociall-icon {
       max-width: 77vw;
       height: 70vw;
       transform: translate(61%, 460px);
-  }
+   }
+
    .bg-arrow {
       margin-top: 281px;
       color: aliceblue;
       height: 0px;
    }
+
    .contant-btn {
       display: block;
       width: 193px;
@@ -1727,6 +1748,7 @@ li.sociall-icon {
       padding: 21px 66px;
       margin: -17px -3px;
    }
+
    ul.advantages-item {
       display: flex;
       flex-wrap: wrap;
@@ -1757,6 +1779,7 @@ li.sociall-icon {
       gap: 23px;
       padding-left: 0px;
    }
+
    .footer-info {
       display: flex;
       justify-content: space-between;
@@ -1796,28 +1819,33 @@ li.sociall-icon {
    input {
       width: 249px;
    }
+
    .form-email-btn-modil {
       width: 320px;
       padding: 21px 0px;
       transform: translate(7%, 63%);
    }
+
    .form-email-btn-modil:hover {
       width: 320px;
       padding: 21px 0px;
       transform: translate(7%, 63%);
    }
 }
+
 @media(max-width: 380px) {
    .box-image {
       position: absolute;
       max-width: 75vw;
       height: 88vw;
       transform: translate(65%, 456px);
-  }
+   }
+
    .title {
       width: 324px;
       font-size: 24.5px;
    }
+
    .main-img {
       margin-left: -8px;
    }
@@ -1842,11 +1870,13 @@ li.sociall-icon {
       padding: 21px 0px;
       transform: translate(7%, 63%);
    }
+
    .form-email-btn-modil:hover {
       width: 320px;
       padding: 21px 0px;
       transform: translate(7%, 63%);
-    }
+   }
+
    .form-wrap {
       padding-left: 0%;
    }
@@ -1915,15 +1945,18 @@ li.sociall-icon {
    .header {
       padding-bottom: 21px;
    }
+
    .box-image {
-     position: absolute;
-    max-width: 83vw;
-    height: 80vw;
-    transform: translate(66%, 456px);
-  }
+      position: absolute;
+      max-width: 83vw;
+      height: 80vw;
+      transform: translate(66%, 456px);
+   }
+
    .contant-desc {
       margin: 34px 0px;
    }
+
    .burger {
       margin-left: 43px;
    }
