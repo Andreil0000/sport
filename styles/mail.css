@@ -579,16 +579,10 @@ h3 {
    text-align: right;
    margin-top: 27px;
 }
-
 .main-name {
    flex-direction: column;
    justify-content: flex-end;
 }
-
-.main-name:hover p {
-   max-height: 600px;
-}
-
 .main-title {
    font-weight: 700;
    font-size: 18px;
@@ -598,18 +592,16 @@ h3 {
    margin-bottom: 0px;
    margin-bottom: 16px;
 }
-
 .main-text {
-   font-weight: 400;
-   font-size: 18px;
-   line-height: 130%;
    overflow: hidden;
    max-height: 0;
-   transition: 0.3s linear;
-   margin-top: 0px;
-   margin-bottom: 0px;
+   font-size: 18px;
+   line-height: 150%;
+   transition: .3s;
 }
-
+.main-name:hover p {
+   max-height: 600px;
+}
 .bg-gray {
    background: #F3F3F3;
 }
@@ -1414,7 +1406,9 @@ li.sociall-icon {
       height: 46vw;
       transform: translate(165%, 169px);
    }
-
+   .main-text {
+     display: none;
+  }
    .box {
       right: 39%;
    }
@@ -1624,7 +1618,6 @@ li.sociall-icon {
       text-align: center;
       transition: 0.3s;
    }
-
    .form-email-btn {
       display: none;
    }
@@ -1658,32 +1651,48 @@ li.sociall-icon {
       flex-direction: column;
       gap: 18px;
    }
-
    .main-img {
       height: 39px;
       width: 39px;
       left: 20px;
       bottom: 20px;
    }
-
    .main-grid-item:nth-child(1) {
       width: 100%;
       height: 114px;
       padding: -1px 17px;
       margin-top: -6px;
    }
-
+   .main-grid-item:nth-child(1):hover {
+      width: 100%;
+      height: 114px;
+      opacity: 1;
+      background: var(--new-gradient, linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%));
+      box-shadow: 0px 13px 30px 0px rgba(186, 180, 69, 0.20);
+   }
    .main-grid-item:nth-child(2) {
       width: 100%;
       height: 116px;
    }
-
+   .main-grid-item:nth-child(2):hover {
+      width: 100%;
+      height: 114px;
+      opacity: 1;
+      background: var(--new-gradient, linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%));
+      box-shadow: 0px 13px 30px 0px rgba(186, 180, 69, 0.20);
+   }
    .main-grid-item:nth-child(3) {
       width: 100%;
       height: 117px;
       margin: 1px 0px;
    }
-
+   .main-grid-item:nth-child(3):hover {
+      width: 100%;
+      height: 114px;
+      opacity: 1;
+      background: var(--new-gradient, linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%));
+      box-shadow: 0px 13px 30px 0px rgba(186, 180, 69, 0.20);
+   }
    .main-grid-item:nth-child(4) {
       width: 100%;
       height: 114px;
@@ -1694,25 +1703,42 @@ li.sociall-icon {
       border: 1px solid var(--dark, #2B3541);
       margin: 1px 0px;
    }
-
+   .main-grid-item:nth-child(4):hover {
+      width: 100%;
+      height: 114px;
+      opacity: 1;
+      background: var(--new-gradient, linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%));
+      box-shadow: 0px 13px 30px 0px rgba(186, 180, 69, 0.20);
+   }
    .main-grid-item:nth-child(5) {
       width: 100%;
       height: 114px;
       margin-left: 0px;
       margin: -5px 0px;
    }
-
+   .main-grid-item:nth-child(5):hover {
+      width: 100%;
+      height: 114px;
+      opacity: 1;
+      background: var(--new-gradient, linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%));
+      box-shadow: 0px 13px 30px 0px rgba(186, 180, 69, 0.20);
+   }
    .main-grid-item:nth-child(6) {
       width: 100%;
       height: 114px;
       margin-left: 0px;
    }
-
+   .main-grid-item:nth-child(6):hover {
+      width: 100%;
+      height: 114px;
+      opacity: 1;
+      background: var(--new-gradient, linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%));
+      box-shadow: 0px 13px 30px 0px rgba(186, 180, 69, 0.20);
+   }
    .main-title {
       margin-top: -33px;
       margin-left: 48px;
    }
-
    .form-title {
       padding-left: 13%;
       padding-top: 46px;
