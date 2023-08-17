@@ -160,8 +160,8 @@ li.social-icon {
 .box-image {
    position: absolute;
    max-width: 100vw;
-   height: 60vw;
-   transform: translate(40%, 84px);
+   height: 59vw;
+   transform: translate(38%, 98px);
 }
 
 .description {
@@ -1035,15 +1035,16 @@ li.sociall-icon {
 }
 
 #modal {
-   max-width: 100%;
+   max-width: 586px;
    height: 333px;
    background-color: #F3F3F3;
    position: absolute;
-   top: -500px;
    left: 0;
    right: 0;
-   margin: auto 0;
+   margin: 17px auto;
    transition: 0.5s;
+   padding: 20px;
+   box-sizing: border-box;
 }
 
 .burger-close {
@@ -1080,7 +1081,6 @@ li.sociall-icon {
 .modal-header-nav li ::after {
    content: "";
    height: 1px;
-   width: 340px;
    background: #2B3541;
    border-radius: 1px;
    display: block;
