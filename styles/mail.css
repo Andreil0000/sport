@@ -158,7 +158,7 @@ li.social-icon {
    opacity: 1;
 }
    .box-image {
-      max-width: 202%;
+      max-width: 164%;
       margin-top: 29px;
    }
 .description {
@@ -558,11 +558,6 @@ h3 {
    opacity: 0.7;
    border: none;
 }
-
-.main-text-gradient:hover p {
-   max-height: 600px;
-}
-
 .main-grid-item:nth-child(6) {
    grid-column: 3/4;
    grid-row: 2/5;
@@ -593,15 +588,6 @@ h3 {
    margin-bottom: 0px;
    margin-bottom: 16px;
 }
-
-.main-text {
-   overflow: hidden;
-   max-height: 0;
-   font-size: 18px;
-   line-height: 150%;
-   transition: .3s;
-}
-
 .main-name:hover p {
    max-height: 600px;
 }
@@ -1421,10 +1407,6 @@ li.sociall-icon {
    .bg{
       margin-bottom: 148px;
      }
-   .main-text {
-      display: none;
-   }
-
    .box {
       flex: 0 0 calc(50vw - (0.4 - 0.5) * 1140px);
       transform: translate(-1%, 66px);
