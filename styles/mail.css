@@ -1090,16 +1090,22 @@ li.sociall-icon {
    top: 275px;
    right: 31px;
 }
-@media (max-width: 1476px) {
+@media (max-width: 1600px) {
    .box-image{
-      max-width: 193%;
+      max-width: 202%;
+      margin-top: 29px;
+   }
+}
+@media (max-width: 1469px) {
+   .box-image{
+      max-width: 169%;
       margin-top: 29px;
    }
 }
 @media (max-width: 1200px) {
    .box-image{
-      max-width: 169%;
-      margin-top: 29px;
+      max-width: 163%;
+      margin-top: 101px;
    }
 }
 @media (max-width: 1120px) {
