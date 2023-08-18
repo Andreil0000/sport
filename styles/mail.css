@@ -1171,15 +1171,9 @@ li.sociall-icon {
    .header-burger {
       display: block;
    }
-}
-
-@media (max-width:1001px) {
    .header-nav {
       display: none;
    }
-}
-
-@media (max-width:1001px) {
    .form-btnn {
       padding: 21px 48px;
    }
@@ -1424,9 +1418,6 @@ li.sociall-icon {
       max-width: 79%;
       margin-top: 29px;
    }
-   /* .burger{
-   margin-right: 202px;
-   } */
    .bg{
       margin-bottom: 148px;
      }
