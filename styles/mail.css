@@ -1034,21 +1034,23 @@ li.sociall-icon {
    background-color: transparent;
    border: none;
    cursor: pointer;
-   margin: 0 auto;
+   margin-right: 204px;
 }
 
 #modal {
-   max-width: 586px;
-   height: 333px;
+   max-width: 587px;
+   height: 331px;
    background-color: #F3F3F3;
    position: absolute;
    top: -500px;
    left: 0;
    right: 0;
-   margin: 17px auto;
+   margin: 20px auto 0;
    transition: 0.5s;
-   padding: 20px;
+   padding: 29px 10px;
    box-sizing: border-box;
+   flex-direction: column;
+   z-index: 99;
 }
 
 .burger-close {
@@ -1088,7 +1090,7 @@ li.sociall-icon {
    background: #2B3541;
    border-radius: 1px;
    display: block;
-   opacity: 50%;
+   opacity: 100%;
    margin: 10px 0;
 }
 
@@ -1156,13 +1158,13 @@ li.sociall-icon {
       transition: .3s;
    }
 }
-@media (max-width:1020px) {
+@media (max-width:1001px) {
    .header-burger {
       display: block;
    }
 }
 
-@media (max-width:1020px) {
+@media (max-width:1001px) {
    .header-nav {
       display: none;
    }
@@ -1639,6 +1641,9 @@ li.sociall-icon {
 }
 
 @media(max-width: 760px) {
+   .burger{
+    margin: 0 auto;
+   }
    .kettlebell {
       width: 100%;
       height: 200px;
@@ -1904,6 +1909,9 @@ li.sociall-icon {
 }
 
 @media(max-width: 380px) {
+   .burger{
+   margin-left:43px;
+   }
    .title {
       width: 324px;
       font-size: 24.5px;
