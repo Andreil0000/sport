@@ -679,11 +679,11 @@ input {
    transition: 0.3s;
 }
 
-.form-email-btn-mobil {
+.form-email-mobil {
    display: none;
 }
 
-.form-email-btn-modil {
+.form-email-modil {
    display: none;
 }
 
@@ -1593,13 +1593,12 @@ li.sociall-icon {
       justify-content: center;
       margin-left: -8%;
    }
-
-   .form-email-btn-modil {
+   .form-email-modil {
       margin: 0 auto;
       transform: translate(8%, 44%);
    }
 
-   .form-email-btn-modil {
+   .form-email-modil {
       color: #2B3541;
       border: none;
       background-color: #FBF138;
@@ -1617,7 +1616,7 @@ li.sociall-icon {
       transition: 0.3s;
    }
 
-   .form-email-btn-modil:hover {
+   .form-email-modil:hover {
       color: var(--yellow, #FBF138);
       border: none;
       background: var(--dark, #2B3541);
@@ -1685,6 +1684,7 @@ li.sociall-icon {
       width: 39px;
       left: 20px;
       bottom: 10px;
+      transition: 3s;
    }
    .main-img:hover {
          transform: scale(1.5);
@@ -1896,7 +1896,7 @@ li.sociall-icon {
       max-width: 100%;
 
    }
-   .form-email-btn-modil {
+   .form-email-modil {
       width: 320px;
       padding: 21px 0px;
       transform: translate(7%, 63%);
@@ -1907,7 +1907,7 @@ li.sociall-icon {
       height: 356px;
       margin-top: -295px;
    }
-   .form-email-btn-modil:hover {
+   .form-email-modil:hover {
       width: 320px;
       padding: 21px 0px;
       transform: translate(7%, 63%);
@@ -1951,13 +1951,13 @@ li.sociall-icon {
       padding: 21px 103px;
    }
 
-   .form-email-btn-modil {
+   .form-email-modil {
       width: 320px;
       padding: 21px 0px;
       transform: translate(7%, 63%);
    }
 
-   .form-email-btn-modil:hover {
+   .form-email-modil:hover {
       width: 320px;
       padding: 21px 0px;
       transform: translate(7%, 63%);

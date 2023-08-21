@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
-   <header id="headerTop">
+   <header>
       <div class="container">
          <div class="header">
             <div class="header-item">
@@ -40,7 +39,8 @@
          </div>
       </div>
    </header>
-   <section class="bg">
+   <section>
+   <div class="bg">
       <div class="container">
          <div class="contant-box">
             <div class="contant">
@@ -53,22 +53,25 @@
                <button class="bg-arrow"></button>
             </div>
             <div class="box">
-               <img class="box-image" src="image/Image 1 screen.png" alt="image">
+               <img class="box-image" src="image/бег.png" alt="image">
             </div>
-         </section> 
-   <div class="main">
-      <section class="preview" id="preview">
-         <div class="container">
-            <div class="preview-header">
-               <h2>
-                  Ближайшие события
-               </h2>
+         </div>
+      </div>
+  </div> 
+      </section>
+      <section>
+            <div class="main">
+                  <div class="container">
+                   <div class="preview-header">
+                     <h2>
+                        Ближайшие события
+                     </h2>
             </div>
             <div class="preview-grid">
                <div class="preview-box1">
                   <div class="preview-box-gradient">
                      <p class="preview-date">29.06 - 4.07</p>
-                     <a href="#"><img src="image/плюсик.svg" class="grid-plis"></a>
+                     <img class="grid-plis" src="image/плюсик.svg" alt="плюсик">
                      <h3>Марафон выносливости</h3>
                      <a class="preview-btn-hover" href="#bg-gray">участвовать</a>
                      <a class="preview-btn-plus" href="#bg-gray">+</a>
@@ -78,7 +81,7 @@
                <div class="preview-box2">
                   <div class="preview-box-gradient">
                      <p class="preview-date">9.07</p>
-                     <a href="#"><img src="image/плюсик.svg" class="grid-plis"></a>
+                     <img class="grid-plis" src="image/плюсик.svg" alt="плюсик">
                      <h3>Как стать тренером?</h3>
                      <a class="preview-btn-hover" href="#bg-gray">участвовать</a>
                      <a class="preview-btn-plus" href="#bg-gray">+</a>
@@ -88,7 +91,7 @@
                <div class="preview-box3">
                   <div class="preview-box-gradient">
                      <p class="preview-date">15.07</p>
-                     <a href="#"><img src="image/плюсик.svg" class="grid-plis"></a>
+                     <img class="grid-plis" src="image/плюсик.svg" alt="плюсик">
                      <h3>Йога, как стиль жизни</h3>
                      <a class="preview-btn-hover" href="#bg-gray">участвовать</a>
                      <a class="preview-btn-plus" href="#bg-gray">+</a>
@@ -97,8 +100,10 @@
                </div>
             </div>
          </div>
+      </div>
       </section>
-      <section class="main" id="main">
+      <section>
+      <div class="main" id="main">
          <div class="container">
             <div class="main-header">
                <div>
@@ -153,11 +158,14 @@
                </div>
             </div>
          </div>
-      </section>
-      <section class="bg-gray" id="bg-gray">
+      </div>
+   </section>
+   <section>
+      <div class="bg-gray" >
          <div class="container">
-            <form action="#" class="form">
+            <div class="form">
                <h2 class="form-title">Подпишитесь на рассылку</h2>
+               <form action="#">
                <div class="form-wrap">
                   <input type="email" name="email" placeholder="Ваш e-mail" class="form-email" required>
                   <div class="agreement2">
@@ -170,10 +178,15 @@
                   <input type="checkbox" id="01" class="checkbox">
                   <label for="01">Согласен с обработкой <a href="https://annblok.ru/workshop"
                         target="_blank">персональных данных</a></label>
-                  <input type="submit" name="submit" id="submit" value="Подписаться" class="form-email-btn-modil">
-               </div>
-      </section>
-      <section class="features" id="features">
+                        <input type="submit" name="submit" id="#" value="Подписаться" class="form-email-modil">
+            </div>
+         </form>
+         </div>
+      </div>
+      </div>
+   </section>
+   <section>
+      <div class="features" id="features">
          <div class="container">
             <div class="features-item">
                <div class="features-content">
@@ -229,8 +242,8 @@
                </ul>
             </div>
          </div>
-      </section>
-   </div>
+      </div>
+</section>
    <footer class="footer">
       <div class="container">
          <div class="footer-item">
@@ -248,10 +261,10 @@
                </div>
                <ul class="sociall">
                   <li class="sociall-icon instagram">
-                     <a href="#" class="instagram" targett="_blank"></a>
+                     <a class="instagram" href="#"></a>
                   </li>
                   <li class="sociall-icon facebook">
-                     <a href="#" class="facebook-footer" targett="_blank"></a>
+                     <a class="facebook-footer" href="#"></a>
                   </li>
                </ul>
             </div>
@@ -265,7 +278,7 @@
          </div>
       </div>
    </footer>
-   <!---------BURGER MENU--------->
+       <!-- Меню -->
    <div id="modal" class="modal">
       <a href="#" class="header-logo"></a>
       <ul class="modal-header-nav">
@@ -282,6 +295,7 @@
             <a href="#" class="facebook" target="_blank"></a>
          </li>
       </ul>
+   </div>
       <script src="mail/stail.js"></script>
 </body>
 
