@@ -1,1 +1,3 @@
-# sport
+# sport-Дипломная работа  сайт от учебного проекта Annblok.ru
+*[Макет сайта Figma](https://www.figma.com/file/Sd3DDa87fxQOBJcFUX5NkX/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%BD%D1%8B%D0%B9-%D0%9C%D0%B0%D0%BA%D0%B5%D1%82-%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9-FrontendBlok-(Copy)?type=design&node-id=1973%3A36&mode=design&t=WCZMiyl6xVp2d0b4-1)
+*(Дипломный сайта)(https://andreil0000.github.io/sport/)
